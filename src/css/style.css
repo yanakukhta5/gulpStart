@@ -1,0 +1,13 @@
+* {
+ box-sizing: border-box;
+}
+html {
+ background-color: pink
+}
+@media (max-width: 700px){
+ html{
+  background-color: brown
+ }
+}
+@import 'templates/header.css';
+@import 'templates/footer.css';
